@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dependable Chimney Service | Seattle, WA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Poppins', sans-serif; }
+        body { background: #f8f9fa; color: #333; line-height: 1.6; }
+        
+        /* Header Section */
+        header { 
+            background: linear-gradient(135deg, #8b0000, #b22222); 
+            color: white; 
+            padding: 60px 20px; 
+            text-align: center; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        header h1 { font-size: 2.5rem; margin-bottom: 10px; font-weight: 700; }
+        header p { font-size: 1.2rem; font-weight: 300; opacity: 0.9; }
+
+        /* Main Container */
+        .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+
+        /* Services Grid */
+        .services-section { margin-bottom: 40px; text-align: center; }
+        .services-section h2 { font-size: 2rem; margin-bottom: 25px; color: #222; }
+        .cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { 
+            background: white; 
+            padding: 25px; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+            transition: transform 0.3s ease;
+            border-top: 4px solid #b22222;
+        }
+        .card:hover { transform: translateY(-5px); }
+        .card h3 { margin-bottom: 15px; color: #b22222; font-size: 1.3rem; }
+        .card p { font-size: 0.95rem; color: #666; }
+
+        /* Contact Box & CTA Combination */
+        .contact-box { 
+            background: white; 
+            padding: 30px; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            border-left: 6px solid #b22222;
+        }
+        .contact-info h3 { color: #222; margin-bottom: 10px; font-size: 1.5rem; }
+        .contact-info p { color: #555; margin: 5px 0; }
+        
+        /* Action Button */
+        .btn-call {
+            background: #b22222;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+            transition: background 0.3s;
+            margin-top: 15px;
+        }
+        .btn-call:hover { background: #8b0000; }
+
+        /* Footer */
+        footer { text-align: center; padding: 20px; color: #777; font-size: 0.9rem; margin-top: 40px; border-top: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Dependable Chimney Service</h1>
+        <p>Professional Chimney Sweep & Cleaning in Seattle, WA</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- 3 Services Cards Combination -->
+        <div class="services-section">
+            <h2>Our Professional Services</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>Chimney Sweep</h3>
+                    <p>Thorough sweeping and creosote removal to keep your fireplace safe and efficient all winter long.</p>
+                </div>
+                <div class="card">
+                    <h3>Inspection & Safety</h3>
+                    <p>Detailed safety inspections to detect hidden cracks, blockages, or structural issues early.</p>
+                </div>
+                <div class="card">
+                    <h3>Repair & Maintenance</h3>
+                    <p>Expert chimney repairs, cap installations, and maintenance to protect your home from hazards.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact & Location Box -->
+        <div class="contact-box">
+            <div class="contact-info">
+                <h3>Get in Touch With Us</h3>
+                <p><strong>Address:</strong> 1450 5th Ave, Seattle, WA 98101</p>
+                <p><strong>Service Area:</strong> Seattle & Surrounding Regions</p>
+                <p><strong>Primary Service:</strong> Chimney Sweep & Safety</p>
+            </div>
+            <div>
+                <a href="tel:2065550199" class="btn-call">📞 Call Us Now</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Dependable Chimney Service. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
